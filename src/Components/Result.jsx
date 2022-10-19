@@ -7,9 +7,9 @@ const Result = ({ correct, questions }) => {
 			<h2>
 				You answered {correct} out of {questions.length} correctly!
 			</h2>
-			
+			<a href='https://bogdann322.github.io/ReactQuize'>
 				<button>Try again</button>
-			
+			</a>
 		</div>
 	)
 }
